@@ -34,6 +34,7 @@ public class Duale {
             
 
             }
+        input.close();    
         }
          
     }
