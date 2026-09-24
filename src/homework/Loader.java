@@ -4,7 +4,6 @@ public class Loader {
     public static void main(String[] args) {
         int a = 10;
         int summ = 0;
-        int i;
 
         while (a > 0){
             a--;
@@ -13,7 +12,7 @@ public class Loader {
             } 
         }
 
-        for (i = 0; i <= 49; i++){
+        for (int i = 0; i <= 49; i++){
             if (i == 45){
                 continue;
             }
@@ -35,7 +34,7 @@ public class Loader {
             }
 
             if (a == 5 && summ == 1180){
-                System.out.println("\nУсловие выполнено");   
+                System.out.println("Условие выполнено");   
             }
             else{
                 System.out.println("Условие не выполнено");
