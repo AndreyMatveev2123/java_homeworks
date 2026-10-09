@@ -19,6 +19,16 @@ public class Animal {
         cow.sound = "му";
         cow.makeSound();
 
+        Animal horse = new Animal();
+        horse.name = "Лошадь";
+        horse.sound = "го-го";
+        horse.makeSound();
+
+        Animal frog = new Animal();
+        frog.name = "Лягушка";
+        frog.sound = "ква-ква";
+        frog.makeSound();
+
     }
 
     void makeSound(){
