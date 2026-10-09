@@ -33,6 +33,11 @@ public class Animal {
         fox.name = "Лиса";
         fox.sound = "пам-пам";
         fox.makeSound();
+
+        Animal gus = new Animal();
+        gus.name = "Гусь";
+        gus.sound = "га-га";
+        gus.makeSound();
     }
 
     void makeSound(){
