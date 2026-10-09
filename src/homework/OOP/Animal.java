@@ -29,6 +29,12 @@ public class Animal {
         frog.sound = "ква-ква";
         frog.makeSound();
 
+        Animal fox = new Animal();
+        fox.name = "Лиса";
+        fox.sound = "пам-пам";
+        fox.makeSound();
+
+
     }
 
     void makeSound(){
